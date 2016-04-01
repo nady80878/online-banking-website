@@ -1,0 +1,646 @@
+* {
+	box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+.clear:after {
+	content: ".";
+	display: block;
+	width: 100%;
+	height: 0;
+	clear: both;
+}
+
+ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+.continar {
+	width: 970px;
+	margin: 0px auto;
+}
+
+body {
+	height: 1600px;
+	background-color: #fff;
+}
+/*-------- Start header ---------------*/
+.header {
+	overflow: hidden;
+	width: 100%;
+	height: 1085px;
+	text-align: center;
+	background-image: url('../img/slider.jpg');
+	background-size: cover;
+	background-position: center center;
+	color: #fff;
+}
+
+.header .slider {
+	background-color: rgba(154, 129, 197, 0.9);
+	height: 100%
+}
+
+.header .intro {
+	width: 100%;
+	background-size: cover;
+}
+
+.header ul.navbar-links {
+	width: 40%;
+	padding: 20px;
+	height: 50px;
+	text-align: right;
+	text-align: right;
+	margin-right: 00px;
+}
+
+.header ul.navbar-links li {
+	width: 25%;
+	float: left;
+	height: 47px;
+	text-align: center;
+	display: inline-block;
+}
+
+.header ul.navbar-links li a {
+	color: #E6DAF2;
+	text-decoration: none;
+	font-weight: bold;
+	display: block;
+	width: 100%;
+	height: 47px;
+}
+
+.header ul.navbar-links li:hover {
+	border-bottom: 3px solid #fff;
+	color: #ddd;
+}
+
+.header ul.navbar-links li:hover a {
+	color: #fff;
+}
+
+.header li.menu {
+	position: relative;
+}
+
+.header li.menu .sub-menu {
+	padding: 0;
+	position: absolute;
+	width: 300px;
+	z-index: 99;
+	max-height: 0;
+	max-width: 0;
+	overflow: hidden;
+	border-radius: 0 10px 10px 10px;
+	background: rgba(255, 255, 255, .9);
+	transition: all .6s ease-in-out;
+	-webkit-transition: all .6s ease-in-out;
+	-moz-transition: all .6s ease-in-out;
+	-ms-transition: all .6s ease-in-out;
+	-o-transition: all .6s ease-in-out;
+}
+
+.header li.menu .sub-menu li {
+	float: none;
+	display: block;
+	width: 100%;
+}
+
+.header li.menu .sub-menu li a {
+	display: block;
+	line-height: 47px;
+	color: black;
+}
+
+.header li.menu .sub-menu li:hover a {
+	background: white;
+	color: #50DBDE;
+	font-size: 1.2em;
+}
+
+.header li.menu:hover .sub-menu {
+	max-height: 255px;
+	max-width: 300px;
+	padding: 10px 0;
+}
+
+.header .title {
+	width: 100%;
+	padding: 20px;
+}
+
+.header .title h1 {
+	font-size: 50px;
+	font-weight: 100;
+	margin-bottom: 0px;
+	letter-spacing: 5px;
+}
+
+.header .title span {
+	color: #50DBDE
+}
+
+.header .title p {
+	width: 100%;
+	font-weight: bold;
+	color: #E6DAF2;
+}
+
+.header .wrapper {
+	width: 900px;
+	margin: 20px auto;
+	background: #fff;
+	color: #000;
+	padding: 15px;
+	border-radius: 5px;
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+	box-shadow: 0.5px 0.5px 5px 0px #333;
+	background-image: url('../img/mountain.jpg');
+	background-size: cover;
+	background-position: center center;
+}
+.wrapper .sections-slider{
+	height: 500px;	
+	overflow:hidden;
+}
+.wrapper .sections-slider .sections-slides{
+	width:739px;
+}
+.wrapper .section {
+	width: 85%;
+	height: 500px;
+	float: left;
+	color: #fff;
+	border-radius: 5px 0 0 5px;
+}
+
+.section-slider {
+	overflow: hidden;
+}
+
+.section-slider, .section-slider .slides {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.section-slider, .section-slider .slides .profile-contact .username {
+	text-transform: uppercase;
+}
+
+.section-slider, .section-slider .slides .profile-contact .user-email {
+	text-transform: lowercase;
+}
+
+.section-slider, .section-slider .slide {
+	height: 380px;
+	width: 739px;
+}
+
+.section-slider .slide {
+	float: left;
+}
+
+.balance {
+	width: 600px;
+	margin: 10px auto;
+	height: 350px;
+	position: relative;
+	padding: 30px;
+	text-align: center;
+}
+
+.section-slider .slide .balance .balance-content {
+	position: absolute;
+	padding: 20px;
+	width: 35%;
+	border-radius: 10px;
+	background: chartreuse;
+	color: black;
+	font-size: 1.2em;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f3c5bd+0,e86c57+50,ea2803+51,c72200+100 */
+	background: rgb(243, 197, 189); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(243, 197, 189, 1) 0%,
+		rgba(232, 108, 87, 1) 50%, rgba(234, 40, 3, 1) 51%,
+		rgba(199, 34, 0, 1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(243, 197, 189, 1) 0%,
+		rgba(232, 108, 87, 1) 50%, rgba(234, 40, 3, 1) 51%,
+		rgba(199, 34, 0, 1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(243, 197, 189, 1) 0%,
+		rgba(232, 108, 87, 1) 50%, rgba(234, 40, 3, 1) 51%,
+		rgba(199, 34, 0, 1) 100%);
+	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd',
+		endColorstr='#c72200', GradientType=0); /* IE6-9 */
+}
+
+.section-slider .slide .balance-lbl {
+	width: 120px;
+	border-radius: 50%;
+	background: rgb(255, 255, 255);
+	font-size: 1.1em;
+	color: #FFAE4B;
+	text-transform: uppercase;
+	font-weight: bolder;
+	margin: -230px auto;
+	height: 120px;
+	line-height: 120px;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f3c5bd+0,e86c57+50,ea2803+51,c72200+100 */
+	background: rgb(243, 197, 189); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(243, 197, 189, 1) 0%,
+		rgba(232, 108, 87, 1) 50%, rgba(234, 40, 3, 1) 51%,
+		rgba(199, 34, 0, 1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(243, 197, 189, 1) 0%,
+		rgba(232, 108, 87, 1) 50%, rgba(234, 40, 3, 1) 51%,
+		rgba(199, 34, 0, 1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(243, 197, 189, 1) 0%,
+		rgba(232, 108, 87, 1) 50%, rgba(234, 40, 3, 1) 51%,
+		rgba(199, 34, 0, 1) 100%);
+	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd',
+		endColorstr='#c72200', GradientType=0); /* IE6-9 */
+}
+
+.section-slider .slide .balance .balance-content:nth-child(1) {
+	left: 0;
+}
+
+.section-slider .slide .balance .balance-content:nth-child(2) {
+	right: 0;
+	z-index: 2;
+}
+
+.section-slider .slide .balance .balance-content:nth-child(3) {
+	bottom: 0;
+	left: 196px;
+}
+
+.section-slider .slide .balance .balance-content:nth-child(1):after {
+	content: "";
+	width: 0;
+	height: 0;
+	position: absolute;
+	border: 27px solid;
+	border-right: 11px solid;
+	border-top: 62px solid;
+	display: block;
+	border-color: #D72502 #D72502 transparent transparent;
+	bottom: -73px;
+	left: 190px;
+	transform: rotate(-28deg);
+}
+
+.section-slider .slide .balance .balance-content:nth-child(2):before {
+	content: "";
+	width: 0;
+	height: 0;
+	position: absolute;
+	border: 27px solid;
+	border-left: 11px solid;
+	border-top: 62px solid;
+	display: block;
+	border-color: #D72502 transparent transparent #D72502;
+	bottom: -73px;
+	left: -18px;
+	transform: rotate(28deg);
+}
+
+.section-slider .slide .balance .balance-content:nth-child(3):before {
+	content: "";
+	width: 0;
+	height: 0;
+	position: absolute;
+	border: 30px solid;
+	display: block;
+	border-color: transparent transparent #F2C0B7 transparent;
+	margin: 69px 25.5%;
+	bottom: -7px;
+}
+
+.section-slider .slide .card-box {
+	width: 277px;
+	height: 198px;
+	background: url('../img/card.jpg') -33px -36px no-repeat;
+	background-size: 650px 500px;
+	border-radius: 15px;
+	margin: 100px auto;
+	line-height: 50px;
+}
+
+.section-slider .slide .card-box .card-bank {
+	position: relative;
+	right: -60px;
+	font-weight: bolder;
+	font-size: 1.1em;
+	font-family: cardbankfont;
+}
+
+.section-slider .slide .card-box .card-username {
+	position: relative;
+	top: 15px;
+	left: -30px;
+	font-family: carduserfont;
+	text-transform: uppercase;
+	color: #dcd6d1;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.section-slider .slide .card-box .card-number {
+	font-family: cardfont;
+	position: relative;
+	top: 10px;
+	font-size: 1.5em;
+}
+
+.section-slider .slide .card-box .card-details {
+	line-height: 10px;
+	font-size: .8em;
+}
+
+.section-slider .slide .card-box .card-details .card-date .card-date-lbl
+	{
+	width: 15px;
+	text-transform: capitalize;
+	display: inline-block;
+	font-size: .7em;
+	line-height: 10px;
+	margin-left: 40px;
+}
+
+.section-slider .slide .card-box .card-details .card-date span {
+	font-family: cardfont;
+}
+
+.section-slider .slide .card-box .card-details .card-secret {
+	margin-left: -15px;
+	margin-top: 2px;
+}
+
+.section-slider .slide .card-box .card-details div {
+	width: 40%;
+	float: left;
+}
+
+.section-slider .slide .privates-accordion {
+	width: 480px;
+	margin: 20px auto;
+}
+
+.section-slider .slide .privates-accordion ul {
+	list-style: none;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+.section-slider .slide .privates-accordion ul li .accordion-tab {
+	padding: 10px;
+	text-decoration: none;
+	width: 100%;
+	display: block;
+	position: relative;
+	color: white;
+	text-transform: uppercase;
+	font-size: 1.2em;
+	border-radius: 5px;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#cb60b3+0,c146a1+50,a80077+51,db36a4+100;Pink+Gloss */
+	background: rgb(203, 96, 179); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(203, 96, 179, 1) 0%,
+		rgba(193, 70, 161, 1) 50%, rgba(168, 0, 119, 1) 51%,
+		rgba(219, 54, 164, 1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(203, 96, 179, 1) 0%,
+		rgba(193, 70, 161, 1) 50%, rgba(168, 0, 119, 1) 51%,
+		rgba(219, 54, 164, 1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(203, 96, 179, 1) 0%,
+		rgba(193, 70, 161, 1) 50%, rgba(168, 0, 119, 1) 51%,
+		rgba(219, 54, 164, 1) 100%);
+	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cb60b3',
+		endColorstr='#db36a4', GradientType=0); /* IE6-9 */
+}
+
+.section-slider .slide .privates-accordion ul li .accordion-tab .accordion-lock
+	{
+	position: absolute;
+	right: 10px;
+}
+
+.section-slider .slide .privates-accordion ul li .accordion-content {
+	padding: 0;
+	height: 0;
+	overflow-y: scroll;
+	background: rgba(238, 238, 238, 0.75);
+	transition: all .6s ease-in-out;
+	-webkit-transition: all .6s ease-in-out;
+	-moz-transition: all .6s ease-in-out;
+	-ms-transition: all .6s ease-in-out;
+	-o-transition: all .6s ease-in-out;
+}
+
+/* Design the Scroll */
+.section-slider .slide .privates-accordion ul li .accordion-content::-webkit-scrollbar
+	{
+	width: 0;
+	border-radius: 5px;
+	transition: width 1s ease-in;
+	-webkit-transition: width 1s ease-in;
+}
+
+.section-slider .slide .privates-accordion ul li .accordion-content::-webkit-scrollbar-track
+	{
+	background-color: rgba(0, 0, 0, .1);
+	border-radius: 5px;
+}
+
+.section-slider .slide .privates-accordion ul li .accordion-content::-webkit-scrollbar-thumb
+	{
+	background-color: #777777;
+	border-radius: 5px;
+}
+
+.section-slider .slide .privates-accordion ul li .accordion-content::-webkit-scrollbar-button
+	{
+	display: none;
+}
+
+.section-slider .slide .privates-accordion ul li .accordion-content::-webkit-scrollbar-corner
+	{
+	background-color: #e3e3e3;
+	border-radius: 5px;
+}
+
+.section-slider .slide .privates-accordion ul li:hover>.accordion-content::-webkit-scrollbar
+	{
+	width: 7px;
+}
+/*End Scroll Design*/
+.section-slider .slide .privates-accordion ul li .accordion-content .accordion-item
+	{
+	width: 100%;
+	margin: 5px auto;
+}
+
+.section-slider .slide .privates-accordion ul li .accordion-content .accordion-item-head
+	{
+	width: 25%;
+	float: left;
+	background: green;
+	padding: 10px;
+	border-bottom-left-radius: 5px;
+	border-top-left-radius: 5px;
+	box-shadow: -2px 2px 2px rgba(0, 0, 0, 0.4);
+}
+
+.section-slider .slide .privates-accordion ul li .accordion-content .accordion-item-body
+	{
+	width: 73%;
+	float: left;
+	background: olive;
+	padding: 10px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	text-transform: capitalize;
+}
+
+.accordion-content-click {
+	height: 172px !important;
+	padding: 20px !important;
+}
+
+.wrapper .section .section-info {
+	height: 75%;
+	width: 100%;
+	padding: 100px;
+}
+
+.wrapper .section .section-info .section-info-box {
+	position: relative;
+	padding: 5px;
+}
+
+.wrapper .section .section-info .profile-avatar img {
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	background: white;
+}
+
+.wrapper .section .section-info .profile-contact {
+	margin: 18px auto;
+	padding: 10px;
+	width: 200px;
+	background: white;
+	color: #000;
+	border-radius: 10px;
+}
+
+.wrapper .section .section-info .profile-contact:before {
+	content: "";
+	width: 0;
+	height: 0;
+	position: absolute;
+	border: 7px solid;
+	display: block;
+	border-color: transparent transparent white transparent;
+	margin: 69px 15.5%;
+	bottom: 10px;
+}
+
+.wrapper .section .section-info .profile-contact .user-email {
+	font-size: 13px;
+	font-style: italic;
+	color: #c0c0c0;
+	font-family: cursive;
+}
+
+.wrapper .section .section-controls {
+	height: 25%;
+	width: 100%;
+}
+
+.wrapper .section .section-controls ul li {
+	display: inline-block;
+}
+
+.wrapper .section .section-controls .control {
+	padding: 31px;
+	border: 2px solid #ffffff;
+	text-transform: capitalize;
+	transition: all .15s ease-in-out;
+	-webkit-transition: all .17s ease-in-out;
+	-moz-transition: all .17s ease-in-out;
+	-ms-transition: all .17s ease-in-out;
+	-o-transition: all .17s ease-in-out;
+}
+
+.wrapper .section .section-controls ul li:first-of-type .control {
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+.wrapper .section .section-controls ul li:last-of-type .control {
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+.wrapper .section .section-controls .control:hover {
+	border-color: cornflowerblue;
+	color: cornflowerblue;
+	cursor: pointer;
+	transform: scale(1.1) translateY(-10px);
+	-moz-transform: scale(1.1) translateY(-10px);
+	-o-transform: scale(1.1) translateY(-10px);
+	-webkit-transform: scale(1.1) translateY(-10px);
+	-ms-transform: .scale(1.1) translateY(-10px);
+}
+
+.wrapper .profile-controls {
+	width: 15%;
+	float: right;
+	text-transform: uppercase;
+}
+
+.wrapper .profile-controls .control {
+	padding: 42.5px 28px;
+	background: rgba(255, 255, 255, .8);
+}
+
+.wrapper .profile-controls .control:hover {
+	background: white;
+	cursor: pointer;
+}
+
+.wrapper .profile-controls  ul li:first-of-type .control {
+	border-radius: 0 10px 0px 0;
+}
+
+.wrapper .profile-controls ul li:last-of-type .control {
+	border-radius: 0 0px 10px 0;
+}
+
+.wrapper .profile-controls .control .control-lbl {
+	padding: 5px 0;
+}
+/*-------- End header ---------------*/
+@font-face {
+	font-family: cardfont;
+	src: url(../fonts/kredit.ttf);
+}
+
+@font-face {
+	font-family: carduserfont;
+	src: url(../fonts/kreditfront.ttf);
+}
+
+@font-face {
+	font-family: cardbankfont;
+	src: url(../fonts/kreditback.ttf);
+}

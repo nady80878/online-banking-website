@@ -1,0 +1,354 @@
+* {
+	box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+.clear:after {
+	content: ".";
+	display: block;
+	width: 100%;
+	height: 0;
+	clear: both;
+}
+
+ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+.continar {
+	width: 970px;
+	margin: 0px auto;
+}
+
+body {
+	height: 1600px;
+	background-color: #fff;
+}
+/*-------- Start header ---------------*/
+.header {
+	overflow: hidden;
+	width: 100%;
+	height: 1085px;
+	text-align: center;
+	background-image: url('../img/slider.jpg');
+	background-size: cover;
+	background-position: center center;
+	color: #fff;
+}
+
+.header .slider {
+	background-color: rgba(154, 129, 197, 0.9);
+	height: 100%
+}
+
+.header .intro {
+	width: 100%;
+	background-size: cover;
+}
+
+.header ul.navbar-links {
+	width: 40%;
+	padding: 20px;
+	height: 50px;
+	text-align: right;
+	text-align: right;
+	margin-right: 00px;
+}
+
+.header ul.navbar-links li {
+	width: 25%;
+	float: left;
+	height: 47px;
+	text-align: center;
+	display: inline-block;
+}
+
+.header ul.navbar-links li a {
+	color: #E6DAF2;
+	text-decoration: none;
+	font-weight: bold;
+	display: block;
+	width: 100%;
+	height: 47px;
+}
+
+.header ul.navbar-links li:hover {
+	border-bottom: 3px solid #fff;
+	color: #ddd;
+}
+
+.header ul.navbar-links li:hover a {
+	color: #fff;
+}
+
+.header li.menu {
+	position: relative;
+}
+
+.header li.menu .sub-menu {
+	padding: 0;
+	position: absolute;
+	width: 300px;
+	z-index: 99;
+	max-height: 0;
+	max-width: 0;
+	overflow: hidden;
+	border-radius: 0 10px 10px 10px;
+	background: rgba(255, 255, 255, .9);
+	transition: all .6s ease-in-out;
+	-webkit-transition: all .6s ease-in-out;
+	-moz-transition: all .6s ease-in-out;
+	-ms-transition: all .6s ease-in-out;
+	-o-transition: all .6s ease-in-out;
+}
+
+.header li.menu .sub-menu li {
+	float: none;
+	display: block;
+	width: 100%;
+}
+
+.header li.menu .sub-menu li a {
+	display: block;
+	line-height: 47px;
+	color: black;
+}
+
+.header li.menu .sub-menu li:hover a {
+	background: white;
+	color: #50DBDE;
+	font-size: 1.2em;
+}
+
+.header li.menu:hover .sub-menu {
+	max-height: 255px;
+	max-width: 300px;
+	padding: 10px 0;
+}
+
+.header .title {
+	width: 100%;
+	padding: 20px;
+}
+
+.header .title h1 {
+	font-size: 50px;
+	font-weight: 100;
+	margin-bottom: 0px;
+	letter-spacing: 5px;
+}
+
+.header .title span {
+	color: #50DBDE
+}
+
+.header .title p {
+	width: 100%;
+	font-weight: bold;
+	color: #E6DAF2;
+}
+
+.header .withdraw {
+	width: 900px;
+	margin: 20px auto;
+	background: #fff;
+	color: #000;
+	padding: 20px;
+	border-radius: 5px;
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+	box-shadow: 0.5px 0.5px 5px 0px #333;
+}
+
+.header .withdraw .sidebar {
+	width: 25%;
+	height: 400px;
+	float: left;
+	direction: rtl;
+	text-transform: capitalize;
+}
+
+.header .withdraw .sidebar .balance {
+	border: 1px solid #E0E0E0;
+	border-radius: 5px;
+}
+
+.header .withdraw .sidebar .balance .balance-header {
+	width: 100%;
+	padding: 15px;
+	background: #F6F6F6;
+	border-radius: 5px;
+}
+
+.header .withdraw .sidebar .balance .balance-content {
+	width: 100%;
+	padding: 20px 10px;
+	background: #FFF;
+	border-radius: 5px;
+}
+
+.header .withdraw .section {
+	width: 70%;
+	margin-left: 3%;
+	border-radius: 5px;
+	float: right;
+	position: relative;
+	text-transform: capitalize;
+}
+
+.header .withdraw .section .tabs {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+}
+
+.header .withdraw .section .tabs li {
+	text-align: center;
+	display: inline-block;
+	margin: auto 5px;
+	padding: 10px;
+	list-style: none;
+}
+
+.header .withdraw .section .tabs li.tab-sperator {
+	width: 100px;
+	background: #E3E3E3;
+	height: 2px;
+	padding: 0;
+	position: relative;
+	bottom: 10px;
+}
+
+.header .withdraw .section .tabs li .tab-num {
+	padding: 5px 10px;
+	border-radius: 50%;
+	border: 2px solid #E3E3E3;
+}
+
+.header .withdraw .section .tabs li .tab-lbl {
+	padding: 5px;
+	margin: 10px 0;
+}
+
+.header .withdraw .section .tabs li label:hover {
+	cursor: pointer;
+}
+
+.header .withdraw .section .tabs li:hover .tab-num, .tab-num-focus {
+	color: #FFF;
+	background: cornflowerblue;
+}
+
+.header .withdraw .section .tabs li:hover .tab-lbl, .tab-lbl-focus {
+	color: cornflowerblue;
+}
+
+.header .withdraw .section .tab  input.tab-radio {
+	display: none;
+}
+
+.header .withdraw .section .tab .tab-content {
+	display: none;
+	position: absolute;
+}
+
+.header .withdraw .section .tab input:checked ~ .tab-content,
+	.tab-content-show {
+	display: block;
+	width: 100%;
+}
+
+.header .withdraw .section .tab .tab-content .fields {
+	width: 100%;
+}
+
+.header .withdraw .section .tab .tab-content .fields .row {
+	margin: 10px auto;
+}
+
+.header .withdraw .section .tab .tab-content .fields .row div {
+	display: inline-block;
+}
+
+.header .withdraw .section .tab .tab-content .fields .row div:first-of-type
+	{
+	width: 30%;
+	border: 1px solid #958282;
+	border-radius: 10px 0 0 10px;
+}
+
+.header .withdraw .section .tab .tab-content .fields .row div:last-of-type
+	{
+	width: 60%;
+	margin-left: -6px;
+	border-radius: 0 10px 10px 0;
+}
+
+.header .withdraw .section .tab .tab-content .fields .row div label {
+	padding: 12px;
+}
+
+.header .withdraw .section .tab .tab-content .fields .row div input,
+	.header .withdraw .section .tab .tab-content .fields .row div select {
+	padding: 12px;
+	outline: none;
+	border-radius: 0 10px 10px 0;
+	border: 1px solid #958282;
+	transition: all .15s ease-in-out;
+	-webkit-transition: all .15s ease-in-out;
+	-moz-transition: all .15s ease-in-out;
+	-ms-transition: all .15s ease-in-out;
+	-o-transition: all .15s ease-in-out;
+}
+
+.header .withdraw .section .tab .tab-content .fields .row div select {
+	padding: 11px;
+}
+
+.header .withdraw .section .tab .tab-content .fields .row div input:focus,
+	.header .withdraw .section .tab .tab-content .fields .row div select:focus
+	{
+	border: 1px solid rgba(100, 149, 237, .5);
+	box-shadow: 0 0 8px rgba(100, 149, 237, .4);
+	-webkit-box-shadow: 0 0 8px rgba(100, 149, 237, .4);
+	-ms-box-shadow: 0 0 8px rgba(100, 149, 237, .4);
+	-moz-box-shadow: 0 0 8px rgba(100, 149, 237, .4);
+	-o-box-shadow: 0 0 8px rgba(100, 149, 237, .4);
+}
+
+.header .withdraw .section .tab .tab-content .fields .row div input,
+	.header .withdraw .section .tab .tab-content .fields .row div label,
+	.header .withdraw .section .tab .tab-content .fields .row div select {
+	display: block;
+	width: 100%;
+}
+
+.header .withdraw .section .tab .tab-content .fields .btn {
+	padding: 30px;
+	text-align: right;
+}
+
+.header .withdraw .section .tab .tab-content .fields .btn button {
+	outline: none;
+	padding: 10px;
+	border-radius: 5px;
+	margin-left: 5px;
+}
+
+.header .withdraw .section .tab .tab-content .fields .btn button:first-of-type
+	{
+	background: #FFF;
+	border: 1px solid #000;
+}
+
+.header .withdraw .section .tab .tab-content .fields .btn button:last-of-type
+	{
+	border: 1px solid cornflowerblue;
+	background: cornflowerblue;
+	color: white;
+}
+/*-------- End header ---------------*/

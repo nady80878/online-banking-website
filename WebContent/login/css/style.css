@@ -1,0 +1,199 @@
+* {
+	box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+.clear-fox {
+	clear: both;
+}
+
+ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+.continar {
+	width: 970px;
+	margin: 0px auto;
+}
+
+body {
+	height: 600px;
+	background-color: #fff;
+	text-transform: capitalize;
+}
+
+.header ul {
+	width: 30%;
+	padding: 20px;
+	height: 50px;
+	text-align: right;
+	text-align: justify;
+	margin-right: -50px;
+	padding-top: 70px
+}
+
+.header ul li {
+	width: 33.3333%;
+	float: right;
+	height: 47px;
+	text-align: center;
+}
+
+.header ul li a {
+	color: #E6DAF2;
+	text-decoration: none;
+	font-weight: bold;
+	display: block;
+	width: 100%;
+	height: 47px;
+}
+
+.header ul li:hover {
+	border-bottom: 3px solid #fff;
+	color: #ddd;
+}
+
+.header ul li:hover a {
+	color: #fff;
+}
+
+.header {
+	overflow: hidden;
+	width: 100%;
+	height: 750px;
+	direction: rtl;
+	/*text-align:center;*/
+	background-image: url('../img/slider.jpg');
+	background-size: cover;
+	background-position: center center;
+	color: #fff;
+}
+
+.header p, a {
+	color: #FFF;
+	margin-right: 28%;
+	font-size: 24px;
+}
+
+.header .slider {
+	margin-top: -50px;
+	background-color: rgba(154, 129, 197, 0.9);
+	height: 100%;
+	padding: 50px;
+}
+
+.header .intro {
+	width: 100%;
+	background-size: cover;
+}
+
+h1 {
+	color: #fff;
+	margin-right: 35%;
+	font-size: 48px;
+	margin-top: 84px;
+}
+
+span {
+	color: aqua;
+}
+
+.formdiv {
+	width: 500px;
+	height: 450px;
+	margin-right: 250px;
+	padding: 1%;
+	border-radius: 10px;
+	position: absolute;
+	display: none;
+	top: 170px;
+	border: 5px solid #E6DAF2;
+	/*-webkit-box-shadow: 0 10px 6px -6px #777;
+	   -moz-box-shadow: 0 10px 6px -6px #777;
+	        box-shadow: 0 10px 6px -6px #777;*/
+	/* box-shadow: 10px 10px 5px #888888;*/
+}
+
+#exampleInputEmail1 {
+	width: 400px;
+	margin-right: 10%;
+}
+
+#exampleInputPassword1 {
+	margin-right: 10%;
+	width: 400px;
+}
+
+.label {
+	color: #FFF;
+	margin-bottom: 50px;
+	margin-right: 70%;
+	font-size: 20px;
+	text-align: center;
+}
+
+#exampleInputFile {
+	margin-left: 40px;
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+
+.help-block {
+	font-size: 24px;
+	color: #50DBDE;
+	text-align: center;
+}
+
+.labell {
+	color: #50DBDE;
+	margin-right: 50%;
+	margin-top: 30%;
+	font-size: 20;
+}
+
+.labell2 {
+	font-size: 20px;
+	color: #50DBDE;
+	margin-right: 50%;
+	padding-top: 0%;
+}
+
+.btn {
+	background-color: #50DBDE;
+	margin-top: 10%;
+	margin-right: 40%;
+	width: 100px;
+	height: 40px;
+	color: #FFF;
+}
+
+.get, .get2 {
+	color: #606;
+	font-size: 24px;
+}
+
+input {
+	padding: 20px;
+	outline: none;
+	border-radius: 10px 10px;
+	border: 1px solid #0B0B0B;
+	transition: all .15s ease-in-out;
+	-webkit-transition: all .15s ease-in-out;
+	-moz-transition: all .15s ease-in-out;
+	-ms-transition: all .15s ease-in-out;
+	-o-transition: all .15s ease-in-out;
+}
+
+input:focus {
+	border: 1px solid rgba(11, 11, 11, .6);
+	box-shadow: 0 0 8px rgba(11, 11, 11, .5);
+	-webkit-box-shadow: 0 0 8px rgba(11, 11, 11, .5);
+	-ms-box-shadow: 0 0 8px rgba(11, 11, 11, .5);
+	-moz-box-shadow: 0 0 8px rgba(11, 11, 11, .5);
+	-o-box-shadow: 0 0 8px rgba(11, 11, 11, .5);
+}
